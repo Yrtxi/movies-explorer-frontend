@@ -1,0 +1,16 @@
+.portfolio__title {
+  margin: 0;
+  color: #8b8b8b;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 485px) {
+  .portfolio__title {
+    font-size: 14px;
+  }
+}

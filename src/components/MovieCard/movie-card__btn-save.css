@@ -1,0 +1,23 @@
+.movie-card__btn-save {
+  width: 72px;
+  height: 21px;
+  background-color: #313131;
+  background-image: url(../../images/moviesCard-saveButton.svg);
+  border: none;
+  padding: 0;
+  border-radius: 20px;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  opacity: 0;
+  cursor: pointer; 
+}
+
+.movie-card__btn-save:hover {
+  opacity: 1;
+}
+
+.movie-card__poster:hover + .movie-card__btn-save {
+  transition: 0.8s ease-in-out;
+  opacity: 1;
+}

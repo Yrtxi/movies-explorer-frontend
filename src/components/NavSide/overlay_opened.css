@@ -1,0 +1,11 @@
+.overlay_opened {
+  visibility: visible;
+  opacity: 1;
+  }
+  
+  @media screen and (min-width: 769px) {
+    .overlay_opened {
+      visibility: hidden;
+      opacity: 0;
+    }
+  }

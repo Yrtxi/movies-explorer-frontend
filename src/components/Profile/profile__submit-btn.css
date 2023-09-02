@@ -1,0 +1,23 @@
+.profile__sumbit-btn {
+  margin-top: 200px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #202020;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .profile__sumbit-btn{
+    margin-top: 190px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .profile__sumbit-btn {
+    margin-top: 358px;
+    font-size: 12px;
+  }
+}

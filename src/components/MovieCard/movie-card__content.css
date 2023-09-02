@@ -1,0 +1,15 @@
+.movie-card__content {
+  display: flex;
+  justify-content: space-between;
+  
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+@media screen and (max-width: 890px) {
+  .movie-card__content {
+    padding: 0;
+  }
+}
+
+

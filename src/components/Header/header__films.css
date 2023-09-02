@@ -1,0 +1,14 @@
+.header__films {
+  padding-left: 63px;
+  flex-grow: 1;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__films {
+    display: none;
+  }
+}

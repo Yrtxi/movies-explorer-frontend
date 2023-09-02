@@ -1,0 +1,31 @@
+.search__input {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 50px;
+  border-radius: 8px;
+  background: #2f2f2f;
+  border: none;
+  padding-left: 20px;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.search__input::placeholder {
+  color: #8b8b8b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.search__input:focus {
+  outline: none;
+}
+
+@media screen and (max-width: 485px) {
+  .search__input {
+    min-height: 44px;
+    padding-left: 13px;
+  }
+}

@@ -1,0 +1,28 @@
+.about-me__job {
+  grid-area: B;
+  color: #fff;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin: 0 0 26px 0;
+  max-width: 599px;
+}
+
+@media screen and (max-width: 824px) {
+  .about-me__job {
+    font-size: 12px;
+    line-height: 18px;
+    max-width: 348px;
+    margin: 0 0 20px 0;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .about-me__job {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}

@@ -1,0 +1,16 @@
+.search__btn {
+  width: 44px;
+  height: 44px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 8px;
+  padding: 0;
+  align-self: center;
+  background-image: url(../../images/searchForm-button.svg);
+  cursor: pointer;
+  transition: 0.8s ease-in-out;
+}
+
+.search__btn:hover {
+  opacity: 0.8;  
+}

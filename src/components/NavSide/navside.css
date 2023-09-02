@@ -1,0 +1,17 @@
+.navside {
+  width: 520px;
+  background-color: #202020;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 159px; 
+  padding-bottom: 90px;
+}
+
+@media screen and (max-width: 485px) {
+  .navside{
+    padding-top: 144px;
+    padding-bottom: 46px;
+  }
+}

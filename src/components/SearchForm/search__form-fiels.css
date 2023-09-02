@@ -1,0 +1,7 @@
+.search__form-field {
+  display: grid;
+  grid-template-columns: 1fr max-content;
+  justify-items: center;
+  gap: 10px;
+  width: 100%;
+}

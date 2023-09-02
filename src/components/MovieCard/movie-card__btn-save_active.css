@@ -1,0 +1,8 @@
+.movie-card__btn-save_active {
+  opacity: 1;
+  width: 21px;
+  height: 21px;
+  background-color: #ee3465;
+  background-image: url(../../images/moviesCard-saveButton-active.svg);
+  transition: none;
+}

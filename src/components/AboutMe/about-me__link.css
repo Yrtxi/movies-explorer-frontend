@@ -1,0 +1,18 @@
+.about-me__link {
+  grid-area: D;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  align-self: end;
+  max-width: 599px;
+}
+
+@media screen and (max-width: 641px) {
+  .about-me__link {
+    margin-top: 40px;
+  }
+}

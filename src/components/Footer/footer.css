@@ -1,0 +1,25 @@
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto;
+  padding: 79px 70px 0;
+  flex-shrink: 0;
+}
+
+@media screen and (min-width: 1281px) {
+  .footer {
+    width: 1280px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .footer {
+    padding: 79px 30px 0;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .footer {
+    padding: 79px 10px 20px;
+  }
+}

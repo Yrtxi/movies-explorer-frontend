@@ -1,0 +1,17 @@
+.form__input {
+  box-sizing: border-box;
+  min-height: 46px;
+  border-radius: 8px;
+  background: #2f2f2f;
+  border: none;
+  padding-left: 15px;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__input:focus {
+  outline: none;
+}

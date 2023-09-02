@@ -1,0 +1,24 @@
+.movie-card__btn-del {
+  width: 21px;
+  height: 21px;
+  background-image: url(../../images/moiesCard-delButton.svg);
+  background-color: #313131;
+  border: none;
+  padding: 0;
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  border-radius: 50px;
+  border: none;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.movie-card__btn-del:hover {
+  opacity: 1;
+}
+
+.movie-card__poster:hover + .movie-card__btn-del {
+  transition: 0.8s ease-in-out;
+  opacity: 1;
+}

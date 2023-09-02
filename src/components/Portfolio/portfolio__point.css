@@ -1,0 +1,8 @@
+.portfolio__point {
+  border-bottom: solid 1px #424242;
+  padding-bottom: 19px;
+}
+.portfolio__point:last-of-type {
+  border: none;
+  padding-bottom: 0px;
+}
