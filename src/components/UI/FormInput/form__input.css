@@ -13,5 +13,5 @@
 }
 
 .form__input:focus {
-  outline: none;
+  outline: #3ddc84 solid 1px;
 }

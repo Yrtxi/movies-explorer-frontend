@@ -11,9 +11,9 @@ const Content = () => {
       <Routes>
         <Route path="/" element={<Main />}></Route>
 
-        <Route path="/movies" element={<Movies />}></Route>
+        <Route path="/movies/*" element={<Movies />}></Route>
 
-        <Route path="/saved-movies" element={<SavedMovies />}></Route>
+        <Route path="/saved-movies/*" element={<SavedMovies />}></Route>
 
         <Route path="*" element={<Navigate to="/404" replace />} />
       </Routes>

@@ -1,11 +1,10 @@
 .login {
   width: 396px;
-  margin: auto;
 }
 
 @media screen and (max-width: 485px) {
   .login {
     width: 260px;
-    padding-top: 26px;
+    padding-top: 27px;
   }
 }

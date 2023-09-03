@@ -93,6 +93,8 @@
 @import url(./components/NavSide/navside__btn.css);
 @import url(./components/NavSide/navside__close-btn.css);
 
+@import url(./components/Register/main.css);
+
 @import url(./components/Register/register.css);
 @import url(./components/Register/register__header.css);
 @import url(./components/Register/register__logo.css);
@@ -111,6 +113,7 @@
 @import url(./components/UI/FormInput/form__input.css);
 @import url(./components/UI/FormInput/form__error.css);
 @import url(./components/UI/FormSubmitBtn/form__submit-btn.css);
+@import url(./components/UI/FormInput/form__inputs.css);
 
 @import url(./components/Profile/profile.css);
 @import url(./components/Profile/profile__title.css);

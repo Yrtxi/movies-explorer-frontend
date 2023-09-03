@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
 
 const MovieCard = ({ title, link }) => {
   const [isSave, setSave] = useState(false);
@@ -11,6 +12,8 @@ const MovieCard = ({ title, link }) => {
     setSave(!isSave);
   };
 
+  const location = useLocation();
+
   return (
     <article className="movie-card">
       <img
@@ -18,13 +21,23 @@ const MovieCard = ({ title, link }) => {
         alt="постер к фильму"
         src={link}
       ></img>
-      <button
-        onClick={handleSaveButton}
-        type="button"
-        className={buttonSaveClassName}
-      ></button>
-      {/* <button type="button" className="movie-card__btn-del"></button> */}
-
+      <Routes>
+        <Route
+          path="/"
+          element={
+            location.pathname === '/movies' ? (
+              <button
+                onClick={handleSaveButton}
+                type="button"
+                className={buttonSaveClassName}
+              ></button>
+            ) : (
+              <button type="button" className="movie-card__btn-del"></button>
+            )
+          }
+        ></Route>
+        <Route path="*" element={<Navigate to="/404" replace />} />
+      </Routes>
       <div className="movie-card__content">
         <h2 className="movie-card__title">{title}</h2>
         <p className="movie-card__duration">1ч 17м</p>

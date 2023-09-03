@@ -8,7 +8,6 @@
   align-self: center;
   cursor: pointer;
   transition: 0.8s ease-in-out;
-  margin-top: 71px;
   color: #fff;
   text-align: center;
   font-size: 14px;
@@ -24,7 +23,6 @@
 
 @media screen and (max-width: 485px) {
   .form__submit-btn {
-    margin-top: 159px;
     font-size: 12px;
   }
 }
