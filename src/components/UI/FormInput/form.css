@@ -1,0 +1,13 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 379px;
+  gap: 30px;
+}
+
+@media screen and (max-width: 485px) {
+  .form {
+    min-height: 468px;
+  }
+}

@@ -1,0 +1,23 @@
+.promo__banner {
+  background-color : #272727;
+  margin: 0 auto;
+  min-height: 493px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-rows: 427px max-content;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 769px) {
+  .promo__banner {
+    min-height: 834px;
+    grid-template-rows: 768px max-content;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .promo__banner {
+    min-height: 586px;
+    grid-template-rows: 543px max-content;
+  }
+}

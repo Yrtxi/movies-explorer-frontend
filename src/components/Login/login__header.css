@@ -1,0 +1,14 @@
+.login__header {
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    padding-bottom: 40px;
+  }
+  
+  @media screen and (max-width: 485px) {
+    .login__header {
+      align-items: center;
+      gap: 47px;
+      padding-bottom: 80px;
+    }
+  }

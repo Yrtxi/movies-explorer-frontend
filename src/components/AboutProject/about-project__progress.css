@@ -1,0 +1,13 @@
+.about-project__progress {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 20% auto;
+}
+
+@media screen and (max-width: 485px) {
+  .about-project__progress {
+    grid-template-columns: 100px 1fr;
+  }
+}

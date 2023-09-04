@@ -1,0 +1,8 @@
+.checkbox__input {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	appearance: none;
+}
+

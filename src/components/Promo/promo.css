@@ -1,0 +1,18 @@
+.promo {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 769px) {
+  .promo {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .promo {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+}

@@ -1,0 +1,21 @@
+.navside__link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-feature-settings: 'clig' off, 'liga' off;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.navside__link:hover {
+  border-bottom: solid 2px white;
+  padding-bottom: 4px;
+}
+
+@media screen and (max-width: 485px) {
+  .navside__link:hover {
+    padding-bottom: 7px;
+  }
+}

@@ -1,0 +1,15 @@
+.navside__menu {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 29px;
+}
+
+@media screen and (max-width: 485px) {
+  .navside__menu {
+    gap: 25px;
+  }
+}

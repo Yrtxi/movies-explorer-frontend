@@ -1,0 +1,35 @@
+.portfolio__item {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  padding-right: 5px;
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: -1.2px;
+  margin: 0;
+  transition: 0.8s ease-in-out;
+}
+
+.portfolio__item:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 769px) {
+  .portfolio__item {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: -1.12px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .portfolio__item {
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: -0.72px;
+  }
+}

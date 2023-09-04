@@ -1,0 +1,11 @@
+.form__text-field {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: #8b8b8b;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  gap: 10px;
+}

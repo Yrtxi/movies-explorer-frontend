@@ -1,0 +1,16 @@
+.nav-tab {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 96px);
+  gap: 10px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 485px) {
+  .nav-tab {
+    grid-template-columns: repeat(auto-fit, 82px);
+    gap: 6px;
+  }
+}

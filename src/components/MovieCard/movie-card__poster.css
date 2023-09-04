@@ -1,0 +1,20 @@
+.movie-card__poster {
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center;
+  height: 201px;
+  width: 100%;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 890px) {
+  .movie-card__poster  {
+    height: 190px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .movie-card__poster  {
+    height: 168px;
+  }
+}

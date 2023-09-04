@@ -1,0 +1,23 @@
+.tech__table-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.56px;
+  margin: 0;
+  background-color: #303030;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 830px) {
+  .tech__table-item {
+    font-size: 12px;
+    min-height: 57px;
+  }
+}

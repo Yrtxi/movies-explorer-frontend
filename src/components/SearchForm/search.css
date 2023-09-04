@@ -1,0 +1,18 @@
+.search {
+  max-width: 1280px;
+  box-sizing: border-box;
+  margin: 0 auto; 
+  padding: 59px 70px 10px;
+}
+
+@media screen and (max-width: 769px) {
+  .search {
+    padding: 58px 30px 10px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .search {
+    padding: 64px 14px 10px;
+  }
+}

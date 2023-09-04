@@ -1,0 +1,16 @@
+.profile__form-field {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 13px;
+  border-bottom: solid 1px #424242;
+}
+
+.profile__form-field:last-of-type {
+  border: none;
+  padding-bottom: 0px;
+}

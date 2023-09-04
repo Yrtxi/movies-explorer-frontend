@@ -1,0 +1,28 @@
+.about-me__foto {  
+  border-radius: 10px;
+  grid-area: E;
+  justify-self: end;
+}
+
+@media screen and (max-width: 824px) {
+  .about-me__foto{
+    width: 255px;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .about-me__foto{
+    justify-self: start;
+    width: 292px;
+  }
+}
+
+@media screen and (max-width: 485px) {
+  .about-me__foto{
+    width: 292px;
+    justify-self: center;
+  }
+}
+
+
+
