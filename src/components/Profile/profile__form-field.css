@@ -1,6 +1,6 @@
 .profile__form-field {
   display: flex;
-  gap: 10px;
+  justify-content: space-between;
   color: #fff;
   font-size: 11px;
   font-style: normal;
